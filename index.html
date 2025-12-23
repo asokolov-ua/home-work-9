@@ -12,7 +12,13 @@
     <header class="header">
         <div class="header-container">
             <nav class="header-navigation">
-                <ul class="menu-list">
+                <div class="burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="menu-list" id="menu">
+                    <li class="close-btn" id="close">&times;</li> <!-- Хрестик -->
                     <li class="menu-items">Home</li>
                     <li class="menu-items">About</li>
                     <li class="menu-items">Works</li>
@@ -93,6 +99,21 @@
             </ul>
         </div>
     </footer>
+    <script>
+        const burger = document.getElementById('burger');
+        const menu = document.getElementById('menu');
+        const closeBtn = document.getElementById('close');
+
+        burger.addEventListener('click', () => {
+            menu.classList.add('active');
+        });
+
+        closeBtn.addEventListener('click', () => {
+            menu.classList.remove('active');
+        });
+
+    </script>
+
 </body>
 
 </html>
