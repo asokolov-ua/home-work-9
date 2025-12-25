@@ -80,7 +80,7 @@
     width: 225px;
     height: 65px;
     background: #34547a;
-    margin-bottom: 91px;
+    margin-bottom: 141px;
     /* Текст у кнопці */
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -120,8 +120,6 @@
 
 .ribbon {
     background-color: #34547a;
-    /* margin-top: 374px; */
-
 }
 
 .ribbon-container {
@@ -133,7 +131,7 @@
 .ribbon-list {
     list-style: none;
     display: flex;
-    gap: 45px;
+    gap: 49px;
 }
 
 .ribbon-items {
@@ -148,8 +146,8 @@
 .ribbon-items-texts {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-left: 25px;
+    gap: 5px;
+    margin-left: 20px;
 }
 
 .ribbon-items-texts-number {
@@ -175,11 +173,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 100px;
+
 }
 
 .main-text {
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 57px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -205,6 +204,7 @@
 .video {
     position: relative;
     display: inline-block;
+    margin-bottom: 100px;
 }
 
 .img-video {
@@ -240,6 +240,7 @@
     font-weight: 500;
     font-size: 21px;
     color: #fff;
+    margin-bottom: 20px;
 }
 
 .footer-list-item-rights {
