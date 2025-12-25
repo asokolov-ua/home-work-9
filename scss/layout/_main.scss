@@ -1,0 +1,35 @@
+@use "../abstracts" as *;
+
+.main {
+    background: $color-bg;
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-text {
+        padding: 100px 0 57px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    &-title {
+        font-family: $font-main;
+        font-weight: 500;
+        font-size: 32px;
+        text-align: center;
+        color: $color-black;
+    }
+
+    &-article {
+        font-family: $font-main;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 164%;
+        text-align: center;
+        color: $color-gray;
+    }
+}
