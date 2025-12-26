@@ -1,0 +1,7 @@
+@use "abstracts";
+@use "./abstracts/base/_base";
+@use "./layout/header";
+@use "./layout/main";
+@use "./layout/footer";
+@use "./components/burger";
+@use "./components/ribbon";

@@ -1,0 +1,36 @@
+@mixin media-query($min, $max: null) {
+    @if $max {
+        @media (min-width: $min) and (max-width: $max) {
+            @content;
+        }
+    }
+
+    @else {
+        @media (min-width: $min) {
+            @content;
+        }
+    }
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin tablet {
+    @media (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
