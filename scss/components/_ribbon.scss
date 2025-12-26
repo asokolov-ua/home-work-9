@@ -19,7 +19,6 @@
         }
 
         @include media-query(992px, 1200px) {
-            // якщо хочеш, можна додати точний breakpoint
             flex-direction: row;
         }
     }
